@@ -1,7 +1,7 @@
 #main.py
 #*********************************************************************************************************
-# Names: Trevor Hunt, [], []                                                                             *
-# emails: huntt3@mail.uc.edu, [], []                                                                     *
+# Names: Trevor Hunt, Aimee Madrigal, Rhodas Yemaneab                                                                        *
+# emails: huntt3@mail.uc.edu, ignaciac@mail.uc.edu, yemanert@mail.uc.edu                                                                   *
 # Assignment Number: Assignment 09                                                                       *
 # Due Date: 04/04/2024                                                                                   *
 # Course/Section: IS4010-001                                                                             *
