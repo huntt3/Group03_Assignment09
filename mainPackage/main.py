@@ -27,11 +27,9 @@ from cocktailsPackage.cocktails import getDrinkDict
 if __name__ == "__main__":
     #Note: On the given links, change the "www." to "https://"
     
-    #parsed_json = getDrinkDict('https://thecocktaildb.com/api/json/v1/1/lookup.php?i=11007')
-    #parsed_json = getDrinkDict('https://thecocktaildb.com/api/json/v1/1/filter.php?g=Champagne_flute')
+    champangeFlute = getDrinkDict('https://thecocktaildb.com/api/json/v1/1/filter.php?g=Champagne_flute')
     eggDrinks = getDrinkDict('https://thecocktaildb.com/api/json/v1/1/filter.php?i=egg')
 
-    for drink in eggDrinks["drinks"]:     #Iterate though python dictionary
-        print (drink)
   
-    print("There are" , len(eggDrinks["drinks"]) , "drinks that contain egg")
+    print("There are" , len(eggDrinks["drinks"]) , "drinks that contain eggs.")
+    print("There are" , len(champangeFlute["drinks"]) , "drinks that use champange flutes as the glass.")
