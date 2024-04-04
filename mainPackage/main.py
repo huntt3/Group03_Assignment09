@@ -23,7 +23,6 @@
 from cocktailsPackage.cocktails import *
 import requests
 import json
-from cocktailsPackage.cocktails import getDrinkDict
 if __name__ == "__main__":
     #Note: On the given links, change the "www." to "https://"
     
@@ -34,4 +33,4 @@ if __name__ == "__main__":
     for drink in eggDrinks["drinks"]:     #Iterate though python dictionary
         print (drink)
   
-    print("There are" , len(eggDrinks["drinks"]) , "drinks that contain egg")
+    print("There are" , len(eggDrinks["drinks"]) , "drinks that contain egg") # These are our interesting facts!
