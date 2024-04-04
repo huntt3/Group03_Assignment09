@@ -23,13 +23,11 @@
 from cocktailsPackage.cocktails import *
 import requests
 import json
-from cocktailsPackage.cocktails import getDrinkDict
 if __name__ == "__main__":
     #Note: On the given links, change the "www." to "https://"
     
     champangeFlute = getDrinkDict('https://thecocktaildb.com/api/json/v1/1/filter.php?g=Champagne_flute')
     eggDrinks = getDrinkDict('https://thecocktaildb.com/api/json/v1/1/filter.php?i=egg')
-
-  
-    print("There are" , len(eggDrinks["drinks"]) , "drinks that contain eggs.")
+    
+    print("There are" , len(eggDrinks["drinks"]) , "drinks that contain eggs.")# These are our interesting facts!
     print("There are" , len(champangeFlute["drinks"]) , "drinks that use champange flutes as the glass.")
